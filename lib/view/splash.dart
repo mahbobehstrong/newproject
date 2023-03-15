@@ -13,7 +13,7 @@ class Splash extends StatelessWidget {
     Timer(Duration(seconds: 2), () {Get.to(Login()); });
     return Scaffold(
       body: Center(
-        child: Hero(tag: "logo", child: Image.asset("assets/images/twitter.png")),
+        child: Hero(tag: "newlogo", child: Image.asset("assets/images/twitter.png")),
       ),
     );
   }
